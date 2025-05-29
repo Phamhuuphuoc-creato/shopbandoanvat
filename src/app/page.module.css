@@ -1,0 +1,216 @@
+/* General page style */
+.page {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+
+
+/* Main Content */
+.mainContent {
+  padding: 40px 20px;
+  background-color: #f5a7a7; /* Màu nền dịu hơn */
+  margin-top: 20px;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.products {
+  margin-top: 40px;
+}
+
+/* Product Grid Style */
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 products per row */
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.productItem {
+  background-color: #fcfcfc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 254, 254, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.productItem:hover {
+  transform: scale(1.05);
+}
+
+.productImage {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(252, 251, 251, 0.1);
+}
+
+.productItem p {
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.productItem .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f39c12;
+  margin-bottom: 10px;
+}
+
+/* About, Services, and Contact */
+.about,
+.services,
+.contact {
+  padding: 40px 20px;
+  background-color: #e0f7fa; /* Màu nền dễ chịu */
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(243, 157, 157, 0.1);
+}
+
+.about h2,
+.services h2,
+.contact h2 {
+  color: #004d40; /* Màu tiêu đề nổi bật */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about p,
+.services p,
+.contact p {
+  font-size: 1.1rem;
+  color: #333; /* Màu chữ dễ nhìn */
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Services List */
+.servicesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.serviceItem {
+  background-color: #f78551;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.serviceItem h3 {
+  color: #1f34f0f3;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.serviceItem p {
+  color: #f7f7f7;
+  font-size: 1.1rem;
+}
+
+/* Contact Form */
+.contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f16767;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(241, 236, 236, 0.1);
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 1rem;
+  color: #fcf9f9;
+  margin-bottom: 8px;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #faf7f7;
+}
+
+.formGroup textarea {
+  resize: vertical;
+}
+
+.submitButton {
+  display: inline-block;
+  background-color: #008cba;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #005f7f;
+}
+
+/* Footer */
+.footer {
+  background-color: #34495e; /* Màu tối hơn cho footer */
+  color: #ecf0f1; /* Màu chữ sáng hơn */
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Mua */
+.buyButton {
+  background-color: #ff5722; /* Màu cam tươi */
+  color: rgb(3, 2, 2);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.buyButton:hover {
+  background-color: #1f34f0; /* Màu cam đậm khi hover */
+}
+
+/* Kiểu giỏ hàng */
+.cart {
+  margin-top: 30px;
+}
+
+.checkoutButton {
+  background-color: #27ae60; /* Màu xanh lá */
+  color: rgb(248, 246, 246);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.checkoutButton:hover {
+  background-color: #218838;
+}
+

@@ -1,0 +1,42 @@
+/* Header Style */
+.header {
+    background-color: #4dc7c3; /* Màu nền sáng hơn */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    width: 120px;
+    height: auto;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    margin: 0 15px;
+  }
+  
+  .nav ul li a {
+    color: #ffffff; /* Màu chữ sáng hơn */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  .nav ul li a:hover {
+    background-color: #3498db; /* Màu khi hover */
+  }
